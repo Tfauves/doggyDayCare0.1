@@ -30,16 +30,22 @@ public class DayCare {
 
     public static void removeAnimal(String animalName, List<Animal> animalList) {
 
-        for (Animal animal : animalList) {
+//        for (Animal animal : animalList) {
+//
+//            if (animal.name.equals(animalName)) {
+//
+//                animalList.remove(animal);
+//
+//                return;
+//
+//            }
+//
+//        }
 
-            if (animal.name.equals(animalName)) {
-
-                animalList.remove(animal);
-
-                return;
-
+        for (int i = 0; i < animalList.size(); i++) {
+            if(animalList.get(i).name.equals(animalName)) {
+                animalList.remove(i--);
             }
-
         }
 
     }

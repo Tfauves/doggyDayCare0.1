@@ -33,8 +33,8 @@ public class Main {
 
         DayCare.displayAnimalList(attendingAnimals);
 //      DayCare.displayAnimalList(attendingAnimals, "Cat");
-//        DayCare.removeAnimal("Tiger", attendingAnimals);
-//        DayCare.displayAnimalList(attendingAnimals);
+        DayCare.removeAnimal("Tiger", attendingAnimals);
+        DayCare.displayAnimalList(attendingAnimals);
 
 //        Dog.speak();
 //        Cat.speak();
